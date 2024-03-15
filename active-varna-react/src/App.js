@@ -1,9 +1,11 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
+import { Home } from "./components/Home/Home";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 
-// import { Route, Routes } from "react-router-dom";
 // import { AuthProvider } from "./context/AuthContext";
 
 function App() {
@@ -11,7 +13,11 @@ function App() {
     <>
       {/* <AuthProvider> */}
       <Header />
-      <main></main>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
       <Footer />
       {/* </AuthProvider> */}
     </>
