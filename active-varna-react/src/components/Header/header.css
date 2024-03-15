@@ -8,21 +8,37 @@ header {
 }
 
 .navbar {
-  width: 80%;
+  width: 73%;
   margin: 0 auto;
+  height: 246px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .navbar-container-logo {
   display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-container-logo::before {
+  content: "Мястото за варненски събития с кауза";
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
 }
 
 .navbar-container-logo a {
-  width: 30%;
+  width: 15%;
 }
 
 .navbar-container-logo img {
@@ -33,4 +49,6 @@ header {
   font-size: 44px;
   font-weight: 700;
   color: #fff;
+  margin-left: 10px;
+  padding-bottom: 15px;
 }
