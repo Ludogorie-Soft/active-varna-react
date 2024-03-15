@@ -1,0 +1,5 @@
+@import url(./components/Header/header.css);
+
+::-webkit-scrollbar {
+  width: 0px;
+}

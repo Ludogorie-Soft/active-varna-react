@@ -1,0 +1,36 @@
+header {
+  background: rgb(246, 105, 120);
+  background: linear-gradient(
+    124deg,
+    rgba(246, 105, 120, 1) 25%,
+    rgba(243, 231, 109, 1) 60%
+  );
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container-logo {
+  display: flex;
+}
+
+.navbar-container-logo a {
+  width: 30%;
+}
+
+.navbar-container-logo img {
+  width: 100%;
+}
+
+.navbar-container-logo p {
+  font-size: 44px;
+  font-weight: 700;
+  color: #fff;
+}
