@@ -22,17 +22,23 @@ export const Footer = () => {
         <div className="footer-container-address">
           <h1>Адрес</h1>
           <Link to="www.activecitizensfund.bg">www.activecitizensfund.bg</Link>
-          <img src={fundImg} alt="Active citizens fund" />
+          <img className="invert" src={fundImg} alt="Active citizens fund" />
         </div>
       </div>
       <div className="footer-contacts">
         <ul>
-          <li>Контакт</li>
-          <li>Политика за поверителност</li>
-          <li>Условия за ползване</li>
+          <li>
+            <Link to="#">Контакт</Link>
+          </li>
+          <li>
+            <Link to="#">Политика за поверителност</Link>
+          </li>
+          <li>
+            <Link to="#">Условия за ползване</Link>
+          </li>
         </ul>
       </div>
-      <p>Copyright ©2024 All rights reserved</p>
+      <p className="footer-copyright">Copyright ©2024 All rights reserved</p>
     </footer>
   );
 };

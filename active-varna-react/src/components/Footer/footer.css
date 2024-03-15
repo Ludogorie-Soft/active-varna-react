@@ -1,8 +1,67 @@
 footer {
   background-color: #343a40;
   color: white;
+  padding: 50px 0;
+  position: fixed;
+  bottom: 0;
 }
 
 footer h1 {
   color: #fd4d40;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer p {
+  text-align: justify;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-container-info {
+  padding-right: 25%;
+}
+
+.footer-container-address a {
+  text-decoration: none;
+  color: white;
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.footer-contacts {
+  margin: 10px auto;
+  padding: 20px 0;
+  width: 80%;
+  border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.footer-contacts ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.footer-contacts ul li {
+  list-style: none;
+  color: rgb(211, 211, 211);
+}
+
+.footer-contacts ul li a {
+  text-decoration: none;
+  color: rgb(211, 211, 211);
+}
+
+.footer-copyright {
+  margin: 0 auto;
+  text-align: center;
 }
