@@ -20,6 +20,19 @@ export const Header = () => {
           </div>
         </div>
       </nav>
+      <div className="navbar-list">
+        <ul>
+          <li>
+            <Link to="/">Начало</Link>
+          </li>
+          <li>
+            <Link to="#">Събития</Link>
+          </li>
+          <li>
+            <Link to="#">Организации</Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 };
